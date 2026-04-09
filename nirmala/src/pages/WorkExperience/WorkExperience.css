@@ -1,0 +1,58 @@
+.work{
+    background-color: #1387812a;
+    margin-left: 150px;
+}
+
+.work-exp{
+    padding: 60px 0px;
+
+}
+
+.work-exp h2{
+    font: bold;
+    color: #1e1e2c;
+}
+
+.work hr{
+    color: #138781;
+    margin: 10px auto;
+    width: 400px;
+
+}
+
+.work-exp .vertical-timeline-element-title{
+    color: #138781
+}
+
+.work-exp .vertical-timeline-element-subtitle{
+    color: #1e1e2c9a;
+}
+
+/* DARK theme */
+
+#dark h2{
+    color: white;
+}
+
+#dark .work hr{
+    color: white;
+    margin: 10px auto;
+    width: 400px;
+
+}
+#dark .work {
+  background-color: #3e4c72;
+}
+
+@media (max-width:600px){
+    .work{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+       
+        
+    }
+    .work hr{
+        width: 270px;
+    }
+}

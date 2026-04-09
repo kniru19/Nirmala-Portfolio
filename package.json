@@ -1,0 +1,27 @@
+{
+  "name": "mernstack-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio app",
+  "homepage": "https://github.com/kniru19/Nirmala-Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/kniru19/Nirmala-Portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kniru19/Nirmala-Portfolio.git"
+  },
+  "license": "MIT",
+  "author": "Nirmala",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.4",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
